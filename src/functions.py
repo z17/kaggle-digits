@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-def showimage(i, images):
+def show_image(i, images):
     img = images.iloc[i].as_matrix()
     img = img.reshape((28, 28))
     plt.imshow(img, cmap='binary')
