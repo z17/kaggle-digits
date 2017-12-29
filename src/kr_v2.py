@@ -6,7 +6,7 @@ import functions
 from sklearn.model_selection import train_test_split
 
 batch_size = 128
-num_epochs = 20
+num_epochs = 40
 hidden_size = 512
 
 height, width, depth = 28, 28, 1
